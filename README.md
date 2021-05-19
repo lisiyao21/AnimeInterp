@@ -59,7 +59,7 @@ The interpolated results will be recorded into the where the "store_path" argume
 
     @inproceedings{siyao2021anime,
 	    title={Deep Animation Video Interpolation in the Wild},
-	    author={Siyao, Li and Zhao, Shiyu and Yu, Weijiang and Sun, Wenxiu and Metaxas, DimitriDimitris and Loy, Chen Change and Liu, Ziwei },
+	    author={Siyao, Li and Zhao, Shiyu and Yu, Weijiang and Sun, Wenxiu and Metaxas, Dimitris and Loy, Chen Change and Liu, Ziwei },
 	    booktitle={CVPR},
 	    year={2021}
     }
