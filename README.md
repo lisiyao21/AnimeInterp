@@ -20,21 +20,18 @@ AnimeInterp consists three parts ('segment-guided mathing', 'recurent flow refin
 ### Data
 
 To use the data, please first download it from [link](https://download.openmmlab.com/datasets/atd_12k.zip) and uncompress it into the root directory. When uncompressed, the datas will look like
-> datasets __ train_10k __ train_triplet0 __ frame1.jpg
->          |            |                 |_ frame2.jpg
->          |            |                 |_ frame3.jpg
->          |            |
->          |            |_ train_triplet1 __ frame1.jpg
->          |            |                 |_ frame2.jpg
->          |            |                 |_ frame3.jpg
->          |            ...
->          |
->          |_  test_2k  __ test_triplet0 __ frame1.png
->          |            |                 |_ frame2.png
->          |            |                 |_ frame3.png
->          |            ...
->          |         
->          |_ test_2k_ann _ test_triplet0 __ triplet0.json
+> datasets
+>>  train_10k
+>>> train_triplet0
+>>>> frame1.jpg, frame2.jpg, frame3.jpg
+>>> train_triplet1
+>>>> frame1.jpg, frame2.jpg, frame3.jpg
+>> test_2k
+>>> test_triplet0
+>>>> frame1.png, frame2.png, frame3.png
+>> test_2k_ann 
+>>> test_triplet0
+>>>> triplet0.json
 
 We also provid pre-computed SGM flows in the datasets folder.
 
