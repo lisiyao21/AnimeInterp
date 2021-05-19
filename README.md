@@ -47,7 +47,7 @@ We also provid pre-computed SGM flows in the datasets folder.
 
 ### Code
 
-To run the reference code, first download the pre-trained code from [link](https://www.dropbox.com/s/oc8juclx1775qib/anime_interp_full.ckpt?dl=0)(Dropbox) or [link](https://www.jianguoyun.com/p/DVKXlwIQ6OS4CRixxPQD)(坚果云) and move it to the checkpoints folder. Then, run
+To run the reference code, first download the pre-trained weights from [link](https://www.dropbox.com/s/oc8juclx1775qib/anime_interp_full.ckpt?dl=0)(Dropbox) or [link](https://www.jianguoyun.com/p/DVKXlwIQ6OS4CRixxPQD)(坚果云) and move it to the checkpoints folder. Then, run
 
 ``` 
 python test_anime_sequence_one_by_one.py configs/config_test_w_sgm.py 
