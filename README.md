@@ -19,7 +19,7 @@ AnimeInterp consists three parts ('segment-guided mathing', 'recurent flow refin
 
 ### Data
 
-To use the data, please first download it from [link](https://download.openmmlab.com/datasets/atd_12k.zip) and uncompress it into the root directory. When uncompressed, the datas will look like
+To use the data, please first download it from [link](https://download.openmmlab.com/datasets/atd_12k.zip) and uncompress it into this project directory. When uncompressed, the data will look like
 
         datasets 
              |_train_10k 
