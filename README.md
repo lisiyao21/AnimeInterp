@@ -54,3 +54,16 @@ python test_anime_sequence_one_by_one.py configs/config_test_w_sgm.py
 ```
 
 The interpolated results will be recorded into the where the "store_path" argument indicates in the config file.
+
+### Citation
+
+    @inproceedings{siyao2021anime,
+	    title={Deep Animation Video Interpolation in the Wild},
+	    author={Siyao, Li and Zhao, Shiyu and Yu, Weijiang and Sun, Wenxiu and Metaxas, DimitriDimitris and Loy, Chen Change and Liu, Ziwei },
+	    booktitle={CVPR},
+	    year={2021}
+    }
+
+### License
+
+Our code is released under MIT License.
