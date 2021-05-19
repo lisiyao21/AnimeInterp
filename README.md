@@ -32,9 +32,9 @@ To use the data, please first download it from [link](https://download.openmmlab
              |
              |_train_10k 
              |        |_ test_triplet0 
-             |        |             |_ frame1.jpg 
-             |        |             |_ frame2.jpg
-             |        |             |_ frame3.jpg
+             |        |             |_ frame1.png 
+             |        |             |_ frame2.png
+             |        |             |_ frame3.png
              |        |
              |        ...
              |
