@@ -19,40 +19,38 @@ AnimeInterp consists three parts ('segment-guided mathing', 'recurent flow refin
 
 ### Data
 
-To use the data, please first download it from [link](https://download.openmmlab.com/datasets/atd_12k.zip) and uncompress it into the root directory. When uncompressed, the datas will look like
+To use the data, please first download it from [link](https://download.openmmlab.com/datasets/atd_12k.zip) and uncompress it into this project directory. When uncompressed, the data will look like
 
-datasets __ train_10k __ train_triplet0 __ frame1.jpg
-         |            |                 |_ frame2.jpg
-         |            |                 |_ frame3.jpg
-         |            |
-         |            |_ train_triplet1 __ frame1.jpg
-         |            |                 |_ frame2.jpg
-         |            |                 |_ frame3.jpg
-         |            ...
-         |
-         |_  test_2k  __ test_triplet0 __ frame1.png
-         |            |                 |_ frame2.png
-         |            |                 |_ frame3.png
-         |            ...
-         |         
-         |_ test_2k_ann _ test_triplet0 __ triplet0.json
+        datasets 
+             |_train_10k 
+             |        |_ train_triplet0 
+             |        |             |_ frame1.jpg 
+             |        |             |_ frame2.jpg
+             |        |             |_ frame3.jpg
+             |        |
+             |        ...
+             |
+             |_train_10k 
+             |        |_ test_triplet0 
+             |        |             |_ frame1.png 
+             |        |             |_ frame2.png
+             |        |             |_ frame3.png
+             |        |
+             |        ...
+             |
+             |_test_2k_ann 
+                      |_ test_triplet0 
+                                    |_ triplet0.json   
+
 
 We also provid pre-computed SGM flows in the datasets folder.
 
 ### Code
 
-To run the reference code, first download the pre-trained code from [link](https://www.dropbox.com/s/oc8juclx1775qib/anime_interp_full.ckpt?dl=0)(Dropbox) or [link](https://www.jianguoyun.com/p/DVKXlwIQ6OS4CRixxPQD)(坚果云) and move it to the checkpoints folder. Then, run
+To run the reference code, first download the pre-trained weights from [link](https://www.dropbox.com/s/oc8juclx1775qib/anime_interp_full.ckpt?dl=0)(Dropbox) or [link](https://www.jianguoyun.com/p/DVKXlwIQ6OS4CRixxPQD)(坚果云) and move it to the checkpoints folder. Then, run
 
 ``` 
 python test_anime_sequence_one_by_one.py configs/config_test_w_sgm.py 
 ```
 
 The interpolated results will be recorded into the where the "store_path" argument indicates in the config file.
-
-
-
-
-
-
-
-
