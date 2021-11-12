@@ -21,7 +21,7 @@ If you have to use higher version, please set argument "align_corner" as True fo
 
 ### Data
 
-To use the data, please first download it from [link](https://download.openmmlab.com/datasets/atd_12k.zip) and uncompress it into this project directory. When uncompressed, the data will look like
+To use the data, please first download it from [link](https://drive.google.com/file/d/1XBDuiEgdd6c0S4OXLF4QvgSn_XNPwc-g/view) and uncompress it into this project directory. When uncompressed, the data will look like
 
         datasets 
              |_train_10k 
