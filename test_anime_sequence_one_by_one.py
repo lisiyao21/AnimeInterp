@@ -17,7 +17,8 @@ import sys
 import cv2
 from utils.vis_flow import flow_to_color
 import json
-from skimage.measure import compare_psnr, compare_ssim
+from skimage.metrics import peak_signal_noise_ratio as compare_psnr
+from skimage.metrics import structural_similarity as compare_ssim
 
 
 def save_flow_to_img(flow, des):
