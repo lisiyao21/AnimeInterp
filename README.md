@@ -1,3 +1,7 @@
+We recently release a project focusing on interpolation on cartoon line art: [AnimeInbet](https://github.com/lisiyao21/AnimeInbet) in ICCV23! 
+
+Do not hesitate to give a star! your star is my strongest motivation!
+
 # AnimeInterp
 
 This is the code for paper "Deep Animation Video Interpolation in the Wild" (CVPR21). 
