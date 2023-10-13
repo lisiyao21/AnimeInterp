@@ -1,7 +1,7 @@
 import os.path as osp
 import sys
 from argparse import ArgumentParser
-from collections import Iterable
+from collections.abc import Iterable
 from importlib import import_module
 from easydict import EasyDict as edict
 
